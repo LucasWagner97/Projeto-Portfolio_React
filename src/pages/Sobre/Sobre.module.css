@@ -1,0 +1,58 @@
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black();
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.bio span {
+    color: var(#D8EFD3);
+    font-weight: bold;
+}
+
+.bio strong {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.textos h2, p {
+    margin-bottom: 1rem;
+}
+
+.techs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icones img {
+    height: 50px;
+}
+.avatar {
+
+    width: 30%;
+    height: 30%;
+    border-radius: 30%;
+    box-shadow: 0px 5px 5px 5px;
+    margin: 10px;
+    border: none;
+}

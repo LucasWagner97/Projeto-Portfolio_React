@@ -1,0 +1,57 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary);
+    color: var( --white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    }
+    
+    .header span {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: var( --soft-white);
+        padding-right: 1.5rem;
+        font-size: 1.125rem;
+    }
+    
+    .header a:hover {
+        color: cadetblue;
+    
+    }
+
+    nav{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    nav a{
+color: aliceblue;
+text-decoration: none;
+padding: 0 50px 10px 0;
+font-size: 25pt;
+position: relative;
+
+    }
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    top: 25px;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 80%;
+}
+
